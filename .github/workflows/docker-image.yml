@@ -33,9 +33,9 @@ jobs:
        docker build -t nilag/docker-graphql:0.0.2 .
 
 
-    - name: push Docker Image
+    - name: Push Docker Image
       run: |
-       docker push nilag/docker-graphql:0.0.2 .       
+        docker push nilag/docker-graphql:0.0.2 .       
         
         
         
